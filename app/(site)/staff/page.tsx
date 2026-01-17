@@ -11,13 +11,9 @@ interface StaffMember {
 }
 
 async function getStaffData(): Promise<StaffMember[]> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'}/api/staff`, {
-    cache: 'no-store'
-  });
-  if (!res.ok) {
-    return [];
-  }
-  return res.json();
+  // Import staff data directly instead of using fetch in production
+  const staffData = await import('@/lib/data/staff.json');
+  return staffData.default as StaffMember[];
 }
 
 export default async function StaffPage() {
