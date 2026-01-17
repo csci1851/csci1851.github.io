@@ -42,11 +42,11 @@ export default async function StaffPage() {
       {/* Professor Section */}
       {professor && (
         <section>
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex items-center justify-center gap-3 mb-6">
             <Snowflake className="w-7 h-7 text-blue-400/50" />
             <h2 className="text-3xl font-bold text-slate-900">Professor</h2>
           </div>
-          <div className="max-w-2xl">
+          <div className="max-w-2xl mx-auto">
             <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 rounded-3xl p-8 border-2 border-blue-300 shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex flex-col items-center text-center space-y-4">
                 {/* Avatar Placeholder */}
