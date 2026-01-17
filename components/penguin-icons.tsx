@@ -1,8 +1,8 @@
 // Custom penguin SVG icons for navigation - more detailed and charming
 
-export function PenguinHome() {
+export function PenguinHome({ className = "" }: { className?: string }) {
   return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className={className} width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Body */}
       <ellipse cx="12" cy="14" rx="5.5" ry="6.5" fill="currentColor" opacity="0.95"/>
       <ellipse cx="12" cy="13.5" rx="4" ry="5" fill="white" opacity="0.98"/>
@@ -187,9 +187,9 @@ export function PenguinLaptop() {
   );
 }
 
-export function PenguinGroup() {
+export function PenguinGroup({ className = "" }: { className?: string }) {
   return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className={className} width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Left penguin */}
       <ellipse cx="7.5" cy="15.5" rx="3.5" ry="4.5" fill="currentColor" opacity="0.88"/>
       <ellipse cx="7.5" cy="15" rx="2.3" ry="3.2" fill="white" opacity="0.95"/>

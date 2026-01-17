@@ -1,4 +1,4 @@
-import { Snowflake } from "@/components/penguin-icons";
+import { Snowflake, PenguinHome } from "@/components/penguin-icons";
 
 export function HomeContent() {
   return (
@@ -6,6 +6,7 @@ export function HomeContent() {
       {/* Page Header */}
       <div className="relative pb-6 border-b-2 border-blue-100">
         <Snowflake className="absolute -top-2 -right-2 w-14 h-14 text-blue-200/30" />
+        <PenguinHome className="absolute -top-1 -left-1 w-10 h-10 text-blue-400/40" />
         <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-5 leading-tight">
           Welcome to CSCI 1851
         </h1>
@@ -13,14 +14,12 @@ export function HomeContent() {
           Machine Learning for Biology and Health
         </h2>
         <p className="text-lg text-slate-600 leading-relaxed max-w-4xl">
-          This is an applied machine learning course covering details of 
-          different machine learning methods (from linear regression to transformers)
-           and how they have been applied to various tasks in biology and health domains.
+          Welcome to CSCI 1851! This is an applied machine learning course covering details of different machine learning methods (from linear regression to transformers) and how they have been applied to various tasks in biology and health domains.
         </p>
       </div>
 
-      {/* Course Overview Section */}
-      <section className="relative">
+      {/* Course Overview Section - Temporarily Hidden */}
+      {/* <section className="relative">
         <div className="flex items-center gap-3 mb-5">
           <Snowflake className="w-7 h-7 text-blue-400/50" />
           <h2 className="text-3xl font-bold text-slate-900">Course Overview</h2>
@@ -50,7 +49,7 @@ export function HomeContent() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Lecture Logistics Section */}
       <section>
@@ -64,12 +63,12 @@ export function HomeContent() {
             <span className="text-base text-slate-700">Tuesday & Thursday, 10:30 AM - 11:50 AM</span>
           </div>
           <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-            <span className="text-base font-bold text-slate-900 min-w-[140px]">Where:</span>
-            <span className="text-base text-slate-700">TBD</span>
+            <span className="text-base font-bold text-slate-900 min-w-[140px]">Location:</span>
+            <span className="text-base text-slate-700">CIT Center (Thomas Watson CIT) 241</span>
           </div>
           <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-            <span className="text-base font-bold text-slate-900 min-w-[140px]">First Lecture:</span>
-            <span className="text-base text-slate-700">January 21, 2026</span>
+            <span className="text-base font-bold text-slate-900 min-w-[140px]">First Class:</span>
+            <span className="text-base text-slate-700">January 22 (Thursday)</span>
           </div>
         </div>
       </section>
