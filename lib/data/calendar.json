@@ -1,0 +1,45 @@
+{
+  "calendar_embed_url": "https://calendar.google.com/calendar/embed?src=example%40brown.edu",
+  "office_hours": [
+    {
+      "id": "1",
+      "staff_name": "Dr. Sarah Chen",
+      "day": "Tuesday",
+      "time": "2:00 PM - 4:00 PM",
+      "location": "CIT 465",
+      "zoom_url": "https://brown.zoom.us/j/123456789"
+    },
+    {
+      "id": "2",
+      "staff_name": "Prof. Michael Rodriguez",
+      "day": "Thursday",
+      "time": "3:00 PM - 5:00 PM",
+      "location": "CIT 467",
+      "zoom_url": "https://brown.zoom.us/j/987654321"
+    },
+    {
+      "id": "3",
+      "staff_name": "Emily Zhang",
+      "day": "Monday",
+      "time": "4:00 PM - 6:00 PM",
+      "location": "CIT 3rd Floor TA Room",
+      "zoom_url": "https://brown.zoom.us/j/111222333"
+    },
+    {
+      "id": "4",
+      "staff_name": "Emily Zhang",
+      "day": "Wednesday",
+      "time": "1:00 PM - 3:00 PM",
+      "location": "CIT 3rd Floor TA Room",
+      "zoom_url": "https://brown.zoom.us/j/111222333"
+    },
+    {
+      "id": "5",
+      "staff_name": "James Wilson",
+      "day": "Friday",
+      "time": "10:00 AM - 12:00 PM",
+      "location": "CIT 3rd Floor TA Room",
+      "zoom_url": "https://brown.zoom.us/j/444555666"
+    }
+  ]
+}

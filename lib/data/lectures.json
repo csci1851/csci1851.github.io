@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "date": "2026-01-21",
+    "title": "Lecture 1",
+    "topic": "Introduction to Machine Learning in Healthcare",
+    "slides_url": "https://example.com/slides/lecture1.pdf",
+    "recording_url": "https://example.com/recordings/lecture1.mp4",
+    "notes_url": "https://example.com/notes/lecture1.pdf"
+  },
+  {
+    "id": "2",
+    "date": "2026-01-23",
+    "title": "Lecture 2",
+    "topic": "Supervised Learning Fundamentals",
+    "slides_url": "https://example.com/slides/lecture2.pdf",
+    "recording_url": null,
+    "notes_url": "https://example.com/notes/lecture2.pdf"
+  },
+  {
+    "id": "3",
+    "date": "2026-01-28",
+    "title": "Lecture 3",
+    "topic": "Neural Networks and Deep Learning",
+    "slides_url": "https://example.com/slides/lecture3.pdf",
+    "recording_url": null,
+    "notes_url": null
+  }
+]

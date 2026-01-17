@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "Python for Data Science",
+    "category": "Programming",
+    "url": "https://example.com/resources/python-ds",
+    "description": "Comprehensive guide to Python libraries for data science and machine learning"
+  },
+  {
+    "id": "2",
+    "title": "Deep Learning Book",
+    "category": "Textbook",
+    "url": "https://www.deeplearningbook.org/",
+    "description": "Free online textbook covering deep learning fundamentals by Goodfellow, Bengio, and Courville"
+  },
+  {
+    "id": "3",
+    "title": "Scikit-learn Documentation",
+    "category": "Tools",
+    "url": "https://scikit-learn.org/stable/",
+    "description": "Official documentation for scikit-learn machine learning library"
+  },
+  {
+    "id": "4",
+    "title": "PyTorch Tutorials",
+    "category": "Tools",
+    "url": "https://pytorch.org/tutorials/",
+    "description": "Official PyTorch tutorials for deep learning"
+  },
+  {
+    "id": "5",
+    "title": "Medical Imaging Datasets",
+    "category": "Datasets",
+    "url": "https://example.com/datasets/medical-imaging",
+    "description": "Curated collection of publicly available medical imaging datasets"
+  }
+]

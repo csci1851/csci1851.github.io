@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Assignment 1: Linear Regression on Health Data",
+    "released_at": "2026-01-23T00:00:00Z",
+    "due_at": "2026-02-06T23:59:59Z",
+    "spec_url": "https://example.com/assignments/hw1-spec.pdf",
+    "submission_url": "https://example.com/submit/hw1"
+  },
+  {
+    "id": "2",
+    "title": "Assignment 2: Classification with Neural Networks",
+    "released_at": "2026-02-06T00:00:00Z",
+    "due_at": "2026-02-20T23:59:59Z",
+    "spec_url": "https://example.com/assignments/hw2-spec.pdf",
+    "submission_url": "https://example.com/submit/hw2"
+  },
+  {
+    "id": "3",
+    "title": "Assignment 3: Medical Image Analysis with CNNs",
+    "released_at": "2026-02-20T00:00:00Z",
+    "due_at": "2026-03-06T23:59:59Z",
+    "spec_url": null,
+    "submission_url": null
+  }
+]

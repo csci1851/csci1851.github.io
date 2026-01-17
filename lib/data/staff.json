@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Sarah Chen",
+    "role": "Instructor",
+    "email": "sarah_chen@brown.edu",
+    "photo_url": "https://example.com/photos/sarah-chen.jpg",
+    "office_hours": "Tuesdays 2-4 PM",
+    "location": "CIT 465"
+  },
+  {
+    "id": "2",
+    "name": "Prof. Michael Rodriguez",
+    "role": "Co-Instructor",
+    "email": "michael_rodriguez@brown.edu",
+    "photo_url": "https://example.com/photos/michael-rodriguez.jpg",
+    "office_hours": "Thursdays 3-5 PM",
+    "location": "CIT 467"
+  },
+  {
+    "id": "3",
+    "name": "Emily Zhang",
+    "role": "Head TA",
+    "email": "emily_zhang@brown.edu",
+    "photo_url": "https://example.com/photos/emily-zhang.jpg",
+    "office_hours": "Mondays 4-6 PM, Wednesdays 1-3 PM",
+    "location": "CIT 3rd Floor TA Room"
+  },
+  {
+    "id": "4",
+    "name": "James Wilson",
+    "role": "TA",
+    "email": "james_wilson@brown.edu",
+    "photo_url": "https://example.com/photos/james-wilson.jpg",
+    "office_hours": "Fridays 10 AM-12 PM",
+    "location": "CIT 3rd Floor TA Room"
+  }
+]
