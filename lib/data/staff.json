@@ -5,7 +5,7 @@
     "role": "Professor",
     "pronouns": "she/her",
     "email": "ritambhara_singh@brown.edu",
-    "photo_url": ""
+    "photo_url": "/staff/ritambhara-singh.jpg"
   },
   {
     "id": "2",
@@ -13,14 +13,14 @@
     "role": "Course Advisor",
     "pronouns": "she/her",
     "email": "ioanna_gemou@brown.edu",
-    "photo_url": ""
+    "photo_url": "/staff/ioanna-gemou.jpg"
   },
   {
     "id": "3",
     "name": "Kyle Yeh",
     "role": "Head TA",
     "pronouns": "he/him",
-    "email": "cs1851headtas@lists.brown.edu, kyle_yeh@brown.edu",
+    "email": "cs1851headtas@lists.brown.edu ",
     "photo_url": ""
   },
   {
@@ -28,7 +28,7 @@
     "name": "Falak Pabari",
     "role": "Head TA",
     "pronouns": "she/her",
-    "email": "cs1851headtas@lists.brown.edu, falak_pabari@brown.edu",
-    "photo_url": ""
+    "email": "cs1851headtas@lists.brown.edu ",
+    "photo_url": "/staff/falak-pabari.png"
   }
 ]
