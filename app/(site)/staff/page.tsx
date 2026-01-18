@@ -7,7 +7,6 @@ interface StaffMember {
   pronouns: string;
   email: string;
   photo_url: string;
-  bio: string;
 }
 
 async function getStaffData(): Promise<StaffMember[]> {
@@ -19,6 +18,7 @@ async function getStaffData(): Promise<StaffMember[]> {
 export default async function StaffPage() {
   const staff = await getStaffData();
   const professor = staff.find(member => member.role === "Professor");
+  const courseAdvisor = staff.find(member => member.role === "Course Advisor");
   const htas = staff.filter(member => member.role === "Head TA");
 
   return (
@@ -66,10 +66,42 @@ export default async function StaffPage() {
                   {professor.email}
                 </a>
                 
-                {/* Bio Placeholder */}
-                <div className="w-full mt-4 pt-4 border-t border-blue-200">
-                  <p className="text-sm text-slate-500 italic">Bio coming soon</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Course Advisor Section */}
+      {courseAdvisor && (
+        <section>
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <Snowflake className="w-7 h-7 text-blue-400/50" />
+            <h2 className="text-3xl font-bold text-slate-900">Course Advisor</h2>
+          </div>
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100/50 rounded-3xl p-8 border-2 border-purple-300 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="flex flex-col items-center text-center space-y-4">
+                {/* Avatar Placeholder */}
+                <div className="w-32 h-32 rounded-full bg-gradient-to-br from-purple-200 to-purple-300 flex items-center justify-center border-4 border-white shadow-md">
+                  <span className="text-4xl font-bold text-purple-700">
+                    {courseAdvisor.name.split(' ').map(n => n[0]).join('')}
+                  </span>
                 </div>
+                
+                {/* Name */}
+                <h3 className="text-2xl font-bold text-slate-900">{courseAdvisor.name}</h3>
+                
+                {/* Pronouns */}
+                <p className="text-base text-slate-600 italic">({courseAdvisor.pronouns})</p>
+                
+                {/* Email */}
+                <a 
+                  href={`mailto:${courseAdvisor.email}`}
+                  className="text-purple-600 hover:text-purple-800 font-medium underline decoration-2 underline-offset-2 transition-colors"
+                >
+                  {courseAdvisor.email}
+                </a>
               </div>
             </div>
           </div>
@@ -110,11 +142,6 @@ export default async function StaffPage() {
                   >
                     {hta.email}
                   </a>
-                  
-                  {/* Bio Placeholder */}
-                  <div className="w-full mt-3 pt-3 border-t border-slate-200">
-                    <p className="text-xs text-slate-500 italic">Bio coming soon</p>
-                  </div>
                 </div>
               </div>
             ))}

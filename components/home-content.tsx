@@ -1,4 +1,5 @@
 import { Snowflake, PenguinHome } from "@/components/penguin-icons";
+import { SyllabusCard } from "@/components/syllabus-card";
 
 export function HomeContent() {
   return (
@@ -17,6 +18,9 @@ export function HomeContent() {
           Welcome to CSCI 1851! This is an applied machine learning course covering details of different machine learning methods (from linear regression to transformers) and how they have been applied to various tasks in biology and health domains.
         </p>
       </div>
+
+      {/* Syllabus Section */}
+      <SyllabusCard />
 
       {/* Course Overview Section - Temporarily Hidden */}
       {/* <section className="relative">
