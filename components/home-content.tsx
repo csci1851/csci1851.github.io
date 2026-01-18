@@ -15,7 +15,7 @@ export function HomeContent() {
           Machine Learning for Biology and Health
         </h2>
         <p className="text-lg text-slate-600 leading-relaxed max-w-4xl">
-          Welcome to CSCI 1851! This is an applied machine learning course covering details of different machine learning methods (from linear regression to transformers) and how they have been applied to various tasks in biology and health domains.
+          Welcome to CSCI 1851! This is an applied machine learning course covering details of different machine learning methods (from linear regression to more traditional applied models) and how they have been applied to various tasks in biology and health domains.
         </p>
       </div>
 
