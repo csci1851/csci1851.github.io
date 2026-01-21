@@ -35,12 +35,12 @@ export default async function StaffPage() {
         </p>
       </div>
 
-      {/* Professor & Course Advisor Section */}
-      {(professor || courseAdvisor) && (
+      {/* Professor Section */}
+      {professor && (
         <section>
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">Instructors</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {professor && (
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">Professor</h2>
+          <div className="flex justify-center">
+            <div className="w-full max-w-md">
               <StaffCard
                 name={professor.name}
                 role={professor.role}
@@ -48,8 +48,17 @@ export default async function StaffPage() {
                 email={professor.email}
                 imageSrc={professor.photo_url}
               />
-            )}
-            {courseAdvisor && (
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Course Advisor Section */}
+      {courseAdvisor && (
+        <section>
+          <h2 className="text-2xl font-bold text-slate-900 mb-6">Course Advisor</h2>
+          <div className="flex justify-center">
+            <div className="w-full max-w-md">
               <StaffCard
                 name={courseAdvisor.name}
                 role={courseAdvisor.role}
@@ -57,7 +66,7 @@ export default async function StaffPage() {
                 email={courseAdvisor.email}
                 imageSrc={courseAdvisor.photo_url}
               />
-            )}
+            </div>
           </div>
         </section>
       )}
