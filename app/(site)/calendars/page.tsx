@@ -23,9 +23,9 @@ export default function CalendarsPage() {
   
   // Define class days with details (Tuesdays and Thursdays starting from Jan 22, 2026)
   const classDetails: {[key: number]: {time: string, location: string}} = {
-    22: { time: "1:00 PM - 2:20 PM", location: "CIT 165" }, // Jan 22 (Thu)
-    27: { time: "1:00 PM - 2:20 PM", location: "CIT 165" }, // Jan 27 (Tue)
-    29: { time: "1:00 PM - 2:20 PM", location: "CIT 165" }, // Jan 29 (Thu)
+    22: { time: "1:00 PM - 2:20 PM", location: "CIT Center (Thomas Watson CIT) 241" }, // Jan 22 (Thu)
+    27: { time: "1:00 PM - 2:20 PM", location: "CIT Center (Thomas Watson CIT) 241" }, // Jan 27 (Tue)
+    29: { time: "1:00 PM - 2:20 PM", location: "CIT Center (Thomas Watson CIT) 241" }, // Jan 29 (Thu)
   };
   
   const classDays = Object.keys(classDetails).map(Number);
