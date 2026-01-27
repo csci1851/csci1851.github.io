@@ -7,5 +7,14 @@
     "slides_url": "/lectures/20260122_CSCI1851_Welcome.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+    "id": "2",
+    "date": "2026-01-27",
+    "title": "Lecture 2",
+    "topic": "Linear Perceptron",
+    "slides_url": "/lectures/20260127_CSCI1851_LinearPerceptron.pdf",
+    "recording_url": null,
+    "notes_url": null
   }
 ]
