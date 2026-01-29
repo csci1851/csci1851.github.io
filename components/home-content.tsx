@@ -113,10 +113,6 @@ export function HomeContent() {
               <span className="text-base font-bold text-slate-900 min-w-[160px]">Final Exam:</span>
               <span className="text-base text-slate-800">May 08, Friday</span>
             </div>
-            <p className="text-sm text-slate-700 pt-3 bg-white/50 rounded-xl p-4">
-              
-            
-            </p>
           </div>
         </div>
       </section>
