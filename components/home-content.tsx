@@ -70,10 +70,6 @@ export function HomeContent() {
             <span className="text-base font-bold text-slate-900 min-w-[140px]">Location:</span>
             <span className="text-base text-slate-700">CIT Center (Thomas Watson CIT) 241</span>
           </div>
-          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-            <span className="text-base font-bold text-slate-900 min-w-[140px]">First Class:</span>
-            <span className="text-base text-slate-700">January 22 (Thursday)</span>
-          </div>
         </div>
       </section>
 
@@ -111,11 +107,11 @@ export function HomeContent() {
           <div className="space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
               <span className="text-base font-bold text-slate-900 min-w-[160px]">Midterm Exam:</span>
-              <span className="text-base text-slate-800">TBD</span>
+              <span className="text-base text-slate-800">Mar 19, Thursday</span>
             </div>
             <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
               <span className="text-base font-bold text-slate-900 min-w-[160px]">Final Exam:</span>
-              <span className="text-base text-slate-800">TBD (during finals period)</span>
+              <span className="text-base text-slate-800">May 08, Friday</span>
             </div>
             <p className="text-sm text-slate-700 pt-3 bg-white/50 rounded-xl p-4">
               
