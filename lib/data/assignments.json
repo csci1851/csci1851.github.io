@@ -1,26 +1,60 @@
 [
   {
     "id": "1",
-    "title": "Assignment 1: Linear Regression on Health Data",
-    "released_at": "2026-01-23T00:00:00Z",
-    "due_at": "2026-02-06T23:59:59Z",
-    "spec_url": "https://example.com/assignments/hw1-spec.pdf",
-    "submission_url": "https://example.com/submit/hw1"
+    "title": "Homework 1",
+    "released_at": "2026-02-03T00:00:00Z",
+    "due_at": "2026-02-13T17:00:00Z",
+    "spec_url": null,
+    "submission_url": null
   },
   {
     "id": "2",
-    "title": "Assignment 2: Classification with Neural Networks",
-    "released_at": "2026-02-06T00:00:00Z",
-    "due_at": "2026-02-20T23:59:59Z",
-    "spec_url": "https://example.com/assignments/hw2-spec.pdf",
-    "submission_url": "https://example.com/submit/hw2"
+    "title": "Homework 2",
+    "released_at": "2026-02-13T00:00:00Z",
+    "due_at": "2026-02-27T17:00:00Z",
+    "spec_url": null,
+    "submission_url": null
   },
   {
     "id": "3",
-    "title": "Assignment 3: Medical Image Analysis with CNNs",
-    "released_at": "2026-02-20T00:00:00Z",
-    "due_at": "2026-03-06T23:59:59Z",
+    "title": "Homework 3",
+    "released_at": "2026-03-03T00:00:00Z",
+    "due_at": "2026-03-13T17:00:00Z",
     "spec_url": null,
     "submission_url": null
+  },
+  {
+    "id": "4",
+    "title": "Homework 4",
+    "released_at": "2026-03-17T00:00:00Z",
+    "due_at": "2026-04-03T17:00:00Z",
+    "spec_url": null,
+    "submission_url": null
+  },
+  {
+    "id": "5",
+    "title": "Homework 5",
+    "released_at": "2026-04-07T00:00:00Z",
+    "due_at": "2026-04-17T17:00:00Z",
+    "spec_url": null,
+    "submission_url": null
+  },
+  {
+    "id": "6",
+    "title": "Homework 6",
+    "released_at": "2026-04-21T00:00:00Z",
+    "due_at": "2026-05-01T17:00:00Z",
+    "spec_url": null,
+    "submission_url": null
+  },
+  {
+    "id": "final-project",
+    "title": "Final Project",
+    "due_at": "2026-05-12T17:00:00Z",
+    "presentation_date": "2026-05-05T00:00:00Z",
+    "midterm_checkpoint": "2026-03-19T00:00:00Z",
+    "spec_url": null,
+    "submission_url": null,
+    "is_project": true
   }
 ]

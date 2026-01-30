@@ -16,5 +16,14 @@
     "slides_url": "/lectures/20260127_CSCI1851_LinearPerceptron.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+    "id": "3",
+    "date": "2026-01-29",
+    "title": "Lecture 3",
+    "topic": "Linear Regression",
+    "slides_url": "/lectures/20260129_CSCI1851_LinearRegression.pdf",
+    "recording_url": null,
+    "notes_url": null
   }
 ]

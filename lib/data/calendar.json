@@ -40,6 +40,22 @@
       "time": "10:00 AM - 12:00 PM",
       "location": "CIT 3rd Floor TA Room",
       "zoom_url": "https://brown.zoom.us/j/444555666"
+    },
+    {
+      "id": "6",
+      "staff_name": "Falak Pabari & Kyle Yeh",
+      "day": "Thursday",
+      "time": "1:00 PM - 3:00 PM",
+      "location": "CIT 207",
+      "zoom_url": null
+    },
+    {
+      "id": "7",
+      "staff_name": "Ritambhara Singh",
+      "day": "Friday",
+      "time": "3:30 PM - 5:30 PM",
+      "location": "DSI Room #313 (164 Angell St., 3rd Floor)",
+      "zoom_url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3t52pOY3_jj13S7etS8xTD1ZBvdtINoeSCKeeasgPF38MlnB3AKGdwsfn80B7eIdet8qxTp9Hj"
     }
   ]
 }
