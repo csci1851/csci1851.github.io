@@ -112,47 +112,61 @@ export default function CalendarsPage() {
     }
   };
   
-  // Office hours dates by month (every Thursday and Friday)
+  // Office hours dates by month (every Monday, Thursday and Friday)
   const allOfficeHoursDates: {[month: number]: {[day: number]: string}} = {
-    0: { // January - Thursdays are 1, 8, 15, 22, 29; Fridays are 2, 9, 16, 23, 30
+    0: { // January - Mondays are 5, 12, 19, 26; Thursdays are 1, 8, 15, 22, 29; Fridays are 2, 9, 16, 23, 30
       22: "Office Hours - Falak & Kyle",
       23: "Office Hours - Ritambhara Singh",
+      26: "Office Hours - Falak & Kyle",
       29: "Office Hours - Falak & Kyle",
       30: "Office Hours - Ritambhara Singh",
     },
-    1: { // February - Thursdays are 5, 12, 19, 26; Fridays are 6, 13, 20, 27
-      5: "Office Hours - Falak & Kyle",
-      6: "Office Hours - Ritambhara Singh",
-      12: "Office Hours - Falak & Kyle",
-      13: "Office Hours - Ritambhara Singh",
-      19: "Office Hours - Falak & Kyle",
-      20: "Office Hours - Ritambhara Singh",
-      26: "Office Hours - Falak & Kyle",
-      27: "Office Hours - Ritambhara Singh",
-    },
-    2: { // March - Thursdays are 5, 12, 19, 26; Fridays are 6, 13, 20, 27
-      5: "Office Hours - Falak & Kyle",
-      6: "Office Hours - Ritambhara Singh",
-      12: "Office Hours - Falak & Kyle",
-      13: "Office Hours - Ritambhara Singh",
-      19: "Office Hours - Falak & Kyle",
-      20: "Office Hours - Ritambhara Singh",
-      26: "Office Hours - Falak & Kyle",
-      27: "Office Hours - Ritambhara Singh",
-    },
-    3: { // April - Thursdays are 2, 9, 16, 23, 30; Fridays are 3, 10, 17, 24
+    1: { // February - Mondays are 2, 9, 16, 23; Thursdays are 5, 12, 19, 26; Fridays are 6, 13, 20, 27
       2: "Office Hours - Falak & Kyle",
-      3: "Office Hours - Ritambhara Singh",
+      5: "Office Hours - Falak & Kyle",
+      6: "Office Hours - Ritambhara Singh",
       9: "Office Hours - Falak & Kyle",
-      10: "Office Hours - Ritambhara Singh",
-      16: "Office Hours - Falak & Kyle",
-      17: "Office Hours - Ritambhara Singh",
+      12: "Office Hours - Falak & Kyle",
+      13: "Office Hours - Ritambhara Singh",
+      19: "Office Hours - Falak & Kyle",
+      20: "Office Hours - Ritambhara Singh",
       23: "Office Hours - Falak & Kyle",
-      24: "Office Hours - Ritambhara Singh",
+      26: "Office Hours - Falak & Kyle",
+      27: "Office Hours - Ritambhara Singh",
+    },
+    2: { // March - Mondays are 2, 9, 16, 23, 30; Thursdays are 5, 12, 19, 26; Fridays are 6, 13, 20, 27
+      2: "Office Hours - Falak & Kyle",
+      5: "Office Hours - Falak & Kyle",
+      6: "Office Hours - Ritambhara Singh",
+      9: "Office Hours - Falak & Kyle",
+      12: "Office Hours - Falak & Kyle",
+      13: "Office Hours - Ritambhara Singh",
+      16: "Office Hours - Falak & Kyle",
+      19: "Office Hours - Falak & Kyle",
+      20: "Office Hours - Ritambhara Singh",
+      23: "Office Hours - Falak & Kyle",
+      26: "Office Hours - Falak & Kyle",
+      27: "Office Hours - Ritambhara Singh",
       30: "Office Hours - Falak & Kyle",
     },
-    4: { // May - Thursdays are 7, 14, 21, 28; Fridays are 1, 8, 15, 22, 29
+    3: { // April - Mondays are 6, 13, 20, 27; Thursdays are 2, 9, 16, 23, 30; Fridays are 3, 10, 17, 24
+      2: "Office Hours - Falak & Kyle",
+      3: "Office Hours - Ritambhara Singh",
+      6: "Office Hours - Falak & Kyle",
+      9: "Office Hours - Falak & Kyle",
+      10: "Office Hours - Ritambhara Singh",
+      13: "Office Hours - Falak & Kyle",
+      16: "Office Hours - Falak & Kyle",
+      17: "Office Hours - Ritambhara Singh",
+      20: "Office Hours - Falak & Kyle",
+      23: "Office Hours - Falak & Kyle",
+      24: "Office Hours - Ritambhara Singh",
+      27: "Office Hours - Falak & Kyle",
+      30: "Office Hours - Falak & Kyle",
+    },
+    4: { // May - Mondays are 4, 11, 18, 25; Thursdays are 7, 14, 21, 28; Fridays are 1, 8, 15, 22, 29
       1: "Office Hours - Ritambhara Singh",
+      4: "Office Hours - Falak & Kyle",
       7: "Office Hours - Falak & Kyle",
       8: "Office Hours - Ritambhara Singh",
     }
@@ -502,7 +516,9 @@ export default function CalendarsPage() {
                           <p className="text-lg font-semibold text-slate-900">
                             {allOfficeHoursDates[selectedEvent.month]?.[selectedEvent.day]?.includes("Ritambhara Singh") 
                               ? "3:30 PM - 5:30 PM" 
-                              : "1:00 PM - 3:00 PM"}
+                              : (new Date(currentYear, selectedEvent.month, selectedEvent.day).getDay() === 1 
+                                ? "6:00 PM - 8:00 PM" 
+                                : "1:00 PM - 3:00 PM")}
                           </p>
                         </div>
                       </div>
@@ -645,6 +661,27 @@ export default function CalendarsPage() {
                     Book an appointment
                   </a>
                   <p className="text-sm text-slate-500 mt-2 italic">Recurring weekly (in-person or video call)</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4 p-4 bg-blue-50 rounded-lg">
+                <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-semibold text-lg text-slate-900">Falak Pabari & Kyle Yeh</h3>
+                  <p className="text-slate-600 mt-1">
+                    <span className="font-medium">Monday</span> • 6:00 PM - 8:00 PM
+                  </p>
+                  <p className="text-slate-600 flex items-center gap-2 mt-1">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    CIT 207
+                  </p>
+                  <p className="text-sm text-slate-500 mt-2 italic">Recurring weekly</p>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-4 bg-blue-50 rounded-lg">

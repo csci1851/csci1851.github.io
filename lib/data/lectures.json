@@ -34,5 +34,14 @@
     "slides_url": "/lectures/20260203_CSCI1851_PracticalML.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+    "id": "5",
+    "date": "2026-02-05",
+    "title": "Lecture 5",
+    "topic": "Logistic Regression",
+    "slides_url": "/lectures/20260205_CSCI1851_LogisticRegression.pdf",
+    "recording_url": null,
+    "notes_url": null
   }
 ]

@@ -56,6 +56,14 @@
       "time": "3:30 PM - 5:30 PM",
       "location": "DSI Room #313 (164 Angell St., 3rd Floor)",
       "zoom_url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3t52pOY3_jj13S7etS8xTD1ZBvdtINoeSCKeeasgPF38MlnB3AKGdwsfn80B7eIdet8qxTp9Hj"
+    },
+    {
+      "id": "8",
+      "staff_name": "Falak Pabari & Kyle Yeh",
+      "day": "Monday",
+      "time": "6:00 PM - 8:00 PM",
+      "location": "CIT 207",
+      "zoom_url": null
     }
   ]
 }
