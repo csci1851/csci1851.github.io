@@ -7,7 +7,7 @@ interface LectureCardProps {
 }
 
 function formatDate(dateString: string): string {
-  const date = new Date(dateString);
+  const date = new Date(dateString + 'T00:00:00');
   const month = date.toLocaleDateString('en-US', { month: 'short' });
   const day = date.getDate();
   return `${month} ${day}`;
