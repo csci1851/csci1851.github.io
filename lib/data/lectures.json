@@ -52,5 +52,14 @@
     "slides_url": "/lectures/20260210_CSCI1851_Trees_Forests.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+    "id": "7",
+    "date": "2026-02-12",
+    "title": "Lecture 7",
+    "topic": "Multi class classification and gradient boosted trees",
+    "slides_url": "/lectures/20260212_CSCI1851_GradientBoosting_MultiClass.pdf",
+    "recording_url": null,
+    "notes_url": null
   }
 ]
