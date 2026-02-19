@@ -61,5 +61,14 @@
     "slides_url": "/lectures/20260212_CSCI1851_GradientBoosting_MultiClass.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+    "id": "8",
+    "date": "2026-02-19",
+    "title": "Lecture 8",
+    "topic": "Multimodal Learning",
+    "slides_url": "/lectures/20260219_CSCI1851_MultimodalLearning.pdf",
+    "recording_url": null,
+    "notes_url": null
   }
 ]
