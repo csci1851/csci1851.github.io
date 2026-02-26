@@ -70,5 +70,23 @@
     "slides_url": "/lectures/20260219_CSCI1851_MultimodalLearning.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+    "id": "9",
+    "date": "2026-02-24",
+    "title": "Lecture 9",
+    "topic": "Gradient Boosted classification and Kernels",
+    "slides_url": "/lectures/20260224_CSCI1851_GradientBoosting_Kernels.pdf",
+    "recording_url": null,
+    "notes_url": null
+  },
+  {
+    "id": "10",
+    "date": "2026-02-26",
+    "title": "Lecture 10",
+    "topic": "Kernels and SVMs",
+    "slides_url": "/lectures/20260226_CSCI1851_Kernels_SVMs.pdf",
+    "recording_url": null,
+    "notes_url": null
   }
 ]
