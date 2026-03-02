@@ -534,7 +534,7 @@ export default function CalendarsPage() {
                           <p className="text-lg font-semibold text-slate-900">
                             {allOfficeHoursDates[selectedEvent.month]?.[selectedEvent.day]?.includes("Ritambhara Singh") 
                               ? "DSI Room #313 (164 Angell St., 3rd Floor)" 
-                              : "CIT 207"}
+                              : "CIT 367"}
                           </p>
                         </div>
                       </div>
@@ -679,7 +679,7 @@ export default function CalendarsPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    CIT 207
+                    CIT 367
                   </p>
                   <p className="text-sm text-slate-500 mt-2 italic">Recurring weekly</p>
                 </div>
@@ -700,7 +700,7 @@ export default function CalendarsPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    CIT 207
+                    CIT 367
                   </p>
                   <p className="text-sm text-slate-500 mt-2 italic">Recurring weekly</p>
                 </div>
