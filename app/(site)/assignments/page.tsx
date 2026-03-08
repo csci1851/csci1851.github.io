@@ -134,8 +134,8 @@ export default function AssignmentsPage() {
               If you have questions about assignments or need clarification on requirements:
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Attend office hours (Fridays, 3:30 PM - 5:30 PM, DSI 313 or Zoom, HTA office hours: 1:00 PM - 3:00 PM, CIT 207)</li>
-              <li>Post questions on the course discussion forum</li>
+              <li>Attend Instructor office hours (Fridays, 3:30 PM - 5:30 PM, DSI 313 or Zoom), HTA office hours (Mondays, 6:00PM - 8:00PM and Thursdays, 1:00 PM - 3:00 PM, CIT 367)</li>
+              <li>Post questions on the Ed</li>
               <li>Email the teaching staff for private concerns</li>
             </ul>
           </div>
