@@ -61,32 +61,6 @@ export default function AssignmentsPage() {
         </div>
       </section>
 
-      {/* Final Project Section */}
-      {finalProject && (
-        <section>
-          <div className="mb-8">
-            <h2 className="text-3xl font-bold text-slate-900 mb-3">Final Project</h2>
-            <p className="text-slate-600">
-              With 2-3 other students, you will work on a course project that applies a machine learning model to a particular biology and health domain task. 
-              This project is modeled like a Kaggle competition, where we describe the task and provide the related dataset. Each team will develop and apply 
-              a machine learning framework to solve that task using the released dataset.
-            </p>
-          </div>
-          
-          <div className="max-w-3xl mx-auto">
-            <AssignmentCard
-              key={finalProject.id}
-              id={finalProject.id}
-              title={finalProject.title}
-              released_at={finalProject.released_at}
-              due_at={finalProject.due_at}
-              presentation_date={finalProject.presentation_date}
-              spec_url={finalProject.spec_url}
-              submission_url={finalProject.submission_url}
-              is_project={true}
-            />
-          </div>
-
           {/* Project Guidelines */}
           <div className="mt-8 bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl p-8 border-2 border-purple-200">
             <h3 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
