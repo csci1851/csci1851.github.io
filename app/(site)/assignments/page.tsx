@@ -61,6 +61,10 @@ export default function AssignmentsPage() {
         </div>
       </section>
 
+      {/* Final Project Section */}
+      {finalProject && (
+        <section>
+
           {/* Project Guidelines */}
           <div className="mt-8 bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl p-8 border-2 border-purple-200">
             <h3 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
@@ -165,7 +169,7 @@ export default function AssignmentsPage() {
               If you have questions about assignments or need clarification on requirements:
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Attend office hours (Fridays, 3:30 PM - 5:30 PM, DSI 313 or Zoom, HTA office hours: 1:00 PM - 3:00 PM, CIT 367)</li>
+              <li>Attend office hours (Fridays, 3:30 PM - 5:30 PM, DSI 313 or Zoom, HTA office hours: 1:00 PM - 3:00 PM, CIT 207)</li>
               <li>Post questions on the course discussion forum</li>
               <li>Email the teaching staff for private concerns</li>
             </ul>
