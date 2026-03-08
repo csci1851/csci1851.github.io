@@ -64,62 +64,27 @@ export default function AssignmentsPage() {
       {/* Final Project Section */}
       {finalProject && (
         <section>
-
-          {/* Project Guidelines */}
-          <div className="mt-8 bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl p-8 border-2 border-purple-200">
-            <h3 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-              <svg className="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              Project Guidelines
-            </h3>
-            <div className="space-y-4 text-slate-700">
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-purple-600 text-white flex items-center justify-center flex-shrink-0 text-sm font-bold mt-0.5">
-                  1
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900 mb-1">Team Formation</h4>
-                  <p>Form teams of 2-3 students. Teams will be finalized by the project release date.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-purple-600 text-white flex items-center justify-center flex-shrink-0 text-sm font-bold mt-0.5">
-                  2
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900 mb-1">Mid-term Model Evaluation (5%)</h4>
-                  <p>Submit your initial model implementation for a checkpoint evaluation on the mid-term exam day. This is scored on completion and helps you gauge your progress before the task update.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-purple-600 text-white flex items-center justify-center flex-shrink-0 text-sm font-bold mt-0.5">
-                  3
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900 mb-1">Final Presentations (15%)</h4>
-                  <p>Each team gets a 10-minute slot (8 min presentation + 2 min questions) to present their project. We will recognize top-performing teams from both mid-term and final evaluations.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-purple-600 text-white flex items-center justify-center flex-shrink-0 text-sm font-bold mt-0.5">
-                  4
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900 mb-1">Final Report and Code (10%)</h4>
-                  <p>Each team submits a final report including task details, data, model, training, experiments, and results. Reports are due after presentations. We will also evaluate code quality, correctness, and documentation.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-purple-600 text-white flex items-center justify-center flex-shrink-0 text-sm font-bold mt-0.5">
-                  5
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900 mb-1">Equal Participation</h4>
-                  <p>All team members must contribute equally. If feedback forms indicate unequal participation, points will be deducted from the final project tally for that student.</p>
-                </div>
-              </div>
-            </div>
+          <div className="mb-8">
+            <h2 className="text-3xl font-bold text-slate-900 mb-3">Final Project</h2>
+            <p className="text-slate-600">
+              With 2-3 other students, you will work on a course project that applies a machine learning model to a particular biology and health domain task. 
+              This project is modeled like a Kaggle competition, where we describe the task and provide the related dataset. Each team will develop and apply 
+              a machine learning framework to solve that task using the released dataset.
+            </p>
+          </div>
+          
+          <div className="max-w-3xl mx-auto">
+            <AssignmentCard
+              key={finalProject.id}
+              id={finalProject.id}
+              title={finalProject.title}
+              released_at={finalProject.released_at}
+              due_at={finalProject.due_at}
+              presentation_date={finalProject.presentation_date}
+              spec_url={finalProject.spec_url}
+              submission_url={finalProject.submission_url}
+              is_project={true}
+            />
           </div>
         </section>
       )}
