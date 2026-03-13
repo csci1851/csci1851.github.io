@@ -142,7 +142,6 @@ export default function CalendarsPage() {
       12: "Office Hours - Falak & Kyle",
       13: "Office Hours - Ritambhara Singh",
       16: "Office Hours - Falak & Kyle",
-      19: "Office Hours - Falak & Kyle",
       20: "Office Hours - Ritambhara Singh",
       23: "Office Hours - Falak & Kyle",
       26: "Office Hours - Falak & Kyle",

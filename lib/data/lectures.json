@@ -106,5 +106,15 @@
     "slides_url": "/lectures/20260305_CSCI1851_FCNs.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+    "id": "13",
+    "date": "2026-03-10",
+    "title": "Lecture 13",
+    "topic": "FCLs and Practical Deep Learning",
+    "slides_url": "/lectures/20260310_CSCI1851_FCNs_PracticalDL.pdf",
+    "recording_url": null,
+    "notes_url": null
   }
+
 ]
