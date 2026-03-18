@@ -115,6 +115,23 @@
     "slides_url": "/lectures/20260310_CSCI1851_FCNs_PracticalDL.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+    "id": "14",
+    "date": "2026-03-12",
+    "title": "Lecture 14",
+    "topic": "Activation Functions and CNNs",
+    "slides_url": "/lectures/20260312_CSCI1851_Activation_CNNs.pdf",
+    "recording_url": null,
+    "notes_url": null
+  },
+  {
+    "id": "15",
+    "date": "2026-03-17",
+    "title": "Lecture 15",
+    "topic": "CNNs and Regularization",
+    "slides_url": "/lectures/20260317_CSCI1851_CNNs_Regularization.pdf",
+    "recording_url": null,
+    "notes_url": null
   }
-
 ]
