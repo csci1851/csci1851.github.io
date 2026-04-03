@@ -133,5 +133,14 @@
     "slides_url": "/lectures/20260317_CSCI1851_CNNs_Regularization.pdf",
     "recording_url": null,
     "notes_url": null
-  }
+  },
+   {
+    "id": "16",
+    "date": "2026-03-31",
+    "title": "Lecture 16",
+    "topic": "Deep CNNs and Regularization",
+    "slides_url": "/lectures/20260331_CSCI1851_DeepCNNs_NewApplications.pdf",
+    "recording_url": null,
+    "notes_url": null
+  } 
 ]
