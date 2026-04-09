@@ -142,5 +142,14 @@
     "slides_url": "/lectures/20260331_CSCI1851_DeepCNNs_NewApplications.pdf",
     "recording_url": null,
     "notes_url": null
+  },
+  {
+   "id": "17",
+    "date": "2026-07-31",
+    "title": "Lecture 17",
+    "topic": "Variational Autoencoders",
+    "slides_url": "/lectures/20260407_CSCI1851_UnsupervisedLearning_VAEs.pdf",
+    "recording_url": null,
+    "notes_url": null 
   } 
 ]
