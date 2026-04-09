@@ -151,5 +151,14 @@
     "slides_url": "/lectures/20260407_CSCI1851_UnsupervisedLearning_VAEs.pdf",
     "recording_url": null,
     "notes_url": null 
+  },
+ {
+   "id": "18",
+    "date": "2026-09-31",
+    "title": "Lecture 18",
+    "topic": "Graph Neural Networks",
+    "slides_url": "/lectures/20260409_CSCI1851_GNNs.pdf",
+    "recording_url": null,
+    "notes_url": null 
   } 
 ]
