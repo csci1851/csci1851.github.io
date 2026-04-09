@@ -145,7 +145,7 @@
   },
   {
    "id": "17",
-    "date": "2026-07-31",
+    "date": "2026-04-07",
     "title": "Lecture 17",
     "topic": "Variational Autoencoders",
     "slides_url": "/lectures/20260407_CSCI1851_UnsupervisedLearning_VAEs.pdf",
@@ -154,7 +154,7 @@
   },
  {
    "id": "18",
-    "date": "2026-09-31",
+    "date": "2026-04-09",
     "title": "Lecture 18",
     "topic": "Graph Neural Networks",
     "slides_url": "/lectures/20260409_CSCI1851_GNNs.pdf",
