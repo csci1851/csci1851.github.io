@@ -178,5 +178,23 @@
     "slides_url": "/lectures/20260416_CSCI1851_RNNs_Transformers.pdf",
     "recording_url": null,
     "notes_url": null 
-  }
+  },
+  {
+   "id": "21",
+    "date": "2026-04-21",
+    "title": "Lecture 21",
+    "topic": "Transformers Continued",
+    "slides_url": "/lectures/20260421_CSCI1851_Transformers_contd..pdf",
+    "recording_url": null,
+    "notes_url": null 
+  },
+  {
+   "id": "22",
+    "date": "2026-04-23",
+    "title": "Lecture 22",
+    "topic": "Transformers Continued",
+    "slides_url": "/lectures/20260421_CSCI1851_Transformers_contd..pdf",
+    "recording_url": null,
+    "notes_url": null 
+  } 
 ]
