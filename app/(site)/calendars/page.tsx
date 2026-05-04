@@ -671,7 +671,7 @@ export default function CalendarsPage() {
                 <div className="flex-1">
                   <h3 className="font-semibold text-lg text-slate-900">Falak Pabari & Kyle Yeh</h3>
                   <p className="text-slate-600 mt-1">
-                    <span className="font-medium">Monday</span> • 6:00 PM - 8:00 PM
+                    <span className="font-medium">Monday</span> • 6:00 PM - 7:00 PM
                   </p>
                   <p className="text-slate-600 flex items-center gap-2 mt-1">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
