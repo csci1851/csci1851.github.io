@@ -166,7 +166,6 @@ export default function CalendarsPage() {
     4: { // May - Mondays are 4, 11, 18, 25; Thursdays are 7, 14, 21, 28; Fridays are 1, 8, 15, 22, 29
       1: "Office Hours - Ritambhara Singh",
       4: "Office Hours - Falak & Kyle",
-      7: "Office Hours - Falak & Kyle",
       8: "Office Hours - Ritambhara Singh",
     }
   };
@@ -516,7 +515,7 @@ export default function CalendarsPage() {
                             {allOfficeHoursDates[selectedEvent.month]?.[selectedEvent.day]?.includes("Ritambhara Singh") 
                               ? "3:30 PM - 5:30 PM" 
                               : (new Date(currentYear, selectedEvent.month, selectedEvent.day).getDay() === 1 
-                                ? "6:00 PM - 8:00 PM" 
+                                ? "6:00 PM - 7:00 PM" 
                                 : "1:00 PM - 3:00 PM")}
                           </p>
                         </div>
@@ -671,7 +670,7 @@ export default function CalendarsPage() {
                 <div className="flex-1">
                   <h3 className="font-semibold text-lg text-slate-900">Falak Pabari & Kyle Yeh</h3>
                   <p className="text-slate-600 mt-1">
-                    <span className="font-medium">Monday</span> • 6:00 PM - 8:00 PM
+                    <span className="font-medium">Monday</span> • 6:00 PM - 7:00 PM
                   </p>
                   <p className="text-slate-600 flex items-center gap-2 mt-1">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
